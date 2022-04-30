@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Laxy Coin - Landing Page </title>
+  <!-- favicon -->
+  <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+  <!-- Flat Icon -->
+  <link rel="stylesheet" href="assets/css/flaticon.css">
+  <!-- animate -->
+  <link rel="stylesheet" href="assets/css/animate.css">
+  <!-- Owl Carousel -->
+  <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+  <!-- magnific popup -->
+  <link rel="stylesheet" href="assets/css/magnific-popup.css">
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- responsive -->
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  
+  <link href="css/main.css" rel="stylesheet">
+
+  <script>
+    var test = false; // False if contracts are on Mainnet
+    var contractAddressSale = '0xbEC6721D2A964C4d7B82B428347B7Bb35945E57c';
+    var contractAddressToken = '0x8ef8CDAdC83C29d81A33981c5ba5CF8f22B4b0a2';
+    </script>
+        <style>
+        
+          body {font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; color: #FFFFFF; background-color: #000000; font-size: 16px; font-weight: 400;}
+  
+          h1 { font-size: 24px;color: #fff;}
+          h2 { font-size: 22px;color: #fff;}
+  
+          .small {
+              font-size: 12px;
+          }
+  
+          .err {
+               color: red;
+          }
+          
+          .green {
+               color: green;
+          }
+          
+          .blue {
+               color: blue;
+          }
+  
+          * {
+            box-sizing: border-box;
+          }
+          
+          a {
+            color: #FFFFFF;
+            text-decoration: none;
+          }
+          
+          a:hover {
+            color: #C0C0C0;
+          }
+          
+          .clickable {
+              cursor: pointer;
+          }
+          
+          .clickable:hover {
+              color: #C0C0C0;
+          }
+          
+          button {
+            background-color: #283747;
+            border: none;
+            border-radius: 2px;
+            color: white;
+            padding: 5px 20px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            display: inline-block;
+            margin: 4px 2px;
+            cursor: pointer;
+          }
+          
+          button:hover {
+            background-color: #008000;
+          }
+          
+          button[disabled] {
+            opacity: 0.6;
+            cursor: not-allowed;
+          }
+          
+          hr {
+              margin: 20px;
+              border: 0;
+              border-top: 1px dashed;
+          }
+          
+          input {
+            text-align: center;
+            font-size: 25px;
+            background-color: #33b77ca8;
+            color: #FFFFFF;
+            border: 1px solid;
+            max-width: 100%;
+            border-radius: 5px;
+          }
+          #buyBtn {
+            width: 30%;
+    font-size: 25px;
+    color: #fff !important;
+    background-color: #ff414d;
+    opacity: 1;
+    border-radius: 10px;
+          }
+      </style>
+</head>
+
+<body class="dark">
+
+  <!-- preloader area start -->
+  <div class="preloader" id="preloader">
+    <div class="preloader-inner">
+      <div class="cube-wrapper">
+        <div class="cube-folding">
+          <span class="leaf1"></span>
+          <span class="leaf2"></span>
+          <span class="leaf3"></span>
+          <span class="leaf4"></span>
+        </div>
+        <span class="loading" data-name="Loading">Loading</span>
+      </div>
+    </div>
+  </div>
+  <!-- preloader area end -->
+
+  <!-- Navebar Area start -->
+  <header class="navigation">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 p-0">
+          <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="index-2.html">
+              <img src="assets/images/Laxycl.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainmenu"
+              aria-controls="mainmenu" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainmenu">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#buynow">Buy</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#referral">Referral Link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#roadmap">Roadmap</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#footer">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Navebar Area End -->
+
+  <!-- Hero Area Start -->
+  <div id="home" class="hero-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex align-self-center">
+          <div class="left-content">
+            <div class="content">
+              <h1 class="title">
+                A reliable token for investment. 🚀
+              </h1>
+
+              <p class="subtitle">
+                Laxy Coin
+                Can build a more beautiful life on the most <br>
+                advanced decentralized smart chain Bainance.
+                <br>
+                Presale: 462,000,000 Token 💎
+                <br>
+                Claim Airdrop: 138,600,000 Token 😍
+              </p>
+              <div class="links">
+                <a href="#buynow" class="mybtn2"><span>Buy Now</span> </a>
+                <a href="#referral" class="mybtn2"><span>Referral Link</span> </a>
+                <a href="https://t.me/laxycoin" target="_blank" class="mybtn2"><span>Join Telegram</span> </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 order-first order-lg-last">
+          <div class="right-img">
+            <div class="discount-circle">
+              <div class="discount-circle-inner">
+                <div class="price">
+                  30%
+                  <span>Presale</span>
+                </div>
+              </div>
+            </div>
+            <img class="img-fluid img" src="assets/images/w3.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Hero Area End -->
+
+  <!-- About Area Start -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-10 col-lg-8">
+          <div class="section-title extra">
+            <h2 class="title">Why Laxy Coin is Best</h2>
+            <p>
+              Develop a more beautiful world by expanding more attractive investments. <span class="wics">🚀🌍</span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-between">
+        <div class="col-lg-5 align-self-center">
+          <div class="iamge">
+            <img src="assets/images/w1.png" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="box one">
+                <div class="inner-box">
+                  <div class="icon">
+                    <img src="assets/images/earth-day.png"></img>
+                  </div>
+                  <h4 class="title">Environmentally Friendly</h4>
+                  <p class="text" style="font-size: 15px;">
+                    Laxy is an eco-friendly Quinn. Hoping for friendship with the mother of this land. ❤️
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="box two">
+                <div class="inner-box">
+                  <div class="icon">
+                  <img src="assets/images/trophy.png"></img>
+                  </div>
+                  <h4 class="title">Victory Laxy</h4>
+                  <p class="text">
+                    Laxy Coin has its own fans and it will definitely succeed in this way. ⭐️
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="box three">
+                <div class="inner-box">
+                  <div class="icon">
+                    <img src="assets/images/growth.png"></img>
+                  </div>
+                  <h4 class="title">Fast Growth</h4>
+                  <p class="text">
+                    Laxy Coin will grow rapidly with the goal of improving working capital and succeeding in doing so. 😍
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="box four">
+                <div class="inner-box">
+                  <div class="icon">
+                    <img src="assets/images/technology.png"></img>
+                  </div>
+                  <h4 class="title">The Best Technology</h4>
+                  <p class="text">
+                    Laxy Coin uses state-of-the-art technologies to develop its application. 💎
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="container">
+    <h1 id="headline">Countdown to listed on pancakeswap</h1>
+    <div id="countdown">
+      <ul>
+        <li><span id="days"></span>days</li>
+        <li><span id="hours"></span>Hours</li>
+        <li><span id="minutes"></span>Minutes</li>
+        <li><span id="seconds"></span>Seconds</li>
+      </ul>
+    </div>
+    <div id="content" class="emoji">
+      <span>🥳</span>
+      <span>🎉</span>
+      <span>🎂</span>
+    </div>
+  </div>
+  <section id="buynow">  
+    <div class="partner-item ptb" style="text-align: center">
+    <h1>Token info</h1>
+    <h2><span id="tokenName">Laxy</span> (<span class="tokenSymbol">LXY</span>)</h2>
+    <p><a target="_blank" href="https://bscscan.com/token/0x8ef8CDAdC83C29d81A33981c5ba5CF8f22B4b0a2" id="tokenAddress">0x8ef8CDAdC83C29d81A33981c5ba5CF8f22B4b0a2</a></p>
+    <button id="copyToken" style="text-align: center">Copy address</button></p>
+    </div>
+        
+    <div class="partner-item ptb" style="text-align: center">
+    <h1>Buy tokens</h1>
+    <p>1 BNB = <span class="rate"></span> <span class="tokenSymbol">LXY</span></p>
+    <input type="number" id="buyAmount" value="0.01" min="0.01" max="10"> BNB
+    <p style="font-size: 20px;">You get: <span id="get">0</span> <span class="tokenSymbol">LXY</span></p>
+    <p><button id="buyBtn" style="text-align: center">Buy</button></p>
+    <p style="font-size: 20px;">In my wallet: <span id="myTokens"></span> <span class="tokenSymbol">LXY</span></p>
+    </div>
+  </section>
+
+   <section id="referral">
+    <div class="partner-item ptb" id="refarea" style="text-align: center;display: block !important;">
+    <h1>Referral program</h1>
+    <p>Share your referral link and get paid instantly to your wallet for every referred token purchase.</p>
+    <p>Total paid to referrers: <span id="refTotal"></span> BNB</p>
+    <p>Referral commission: <span id="refPercent">5</span>%</p>
+    <p>Your referral earnings: <span id="refMy"></span> BNB</p>
+    
+    <p>Share your referral link and get commission for referred token purchases instantly to your wallet.</p>
+    <p><input type="text" id="referLink" size="70" readonly="true"> <button id="copyreflink">Copy link</button></p>
+    <p id="refErr" class="err" style="display: none">Please connect your wallet on Binance Smart Chain to generate your referral link!</p>
+    </div>
+  </section> 
+
+  <!-- About Area End -->
+<section id="roadmap">
+<h1 class="main-title">Roadmap</h1>
+<p class="desermp">More laxy developments in the near future!</p>
+<div class="slider">
+  <div class="slide active">
+    <div class="slide-container bscon">
+      <h2 class="slide-Title">Q1 - 2022</h2>
+      <div class="slide-description">
+        <ul>
+          <li>2022 | March</li>
+         <li>Making Website, Software Architecture, Social Media Setup, Twitter Contest.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="slide">
+    <div class="slide-container bscon2">
+      <h2 class="slide-Title">Q2 - 2022</h2>
+      <div class="slide-description">
+        <ul>
+         <li>2022 | April</li>
+         <li>Pre-sale of tokens - Launch of receiving prizes - Initial promotions.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="slide">
+    <div class="slide-container bscon3">
+      <h2 class="slide-Title">Q3 - 2022</h2>
+      <div class="slide-description">
+        <ul>
+          <li>2022 | May</li>
+          <li>Launching On Pancakeswap, dextools ...</li>
+          <li>Confirmation of contract from certik source</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="slide">
+    <div class="slide-container bscon4">
+      <h2 class="slide-Title">Q4 - 2022</h2>
+      <div class="slide-description">
+        <ul>
+          <li>2022 | June</li>
+          <li>Listing on MarketCap & Coingecko ....</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<section class="partner-section padding-top padding-bottom oh" id="partners">
+  <div class="container">
+      <div class="row justify-content-center mb-30-none">
+          <div class="col-6 col-md-3 col-lg-2">
+              <div class="partner-item"><a href="https://bscscan.com/token/0x8ef8cdadc83c29d81a33981c5ba5cf8f22b4b0a2" target="_blank" rel="nofollow"><img src="assets/images/bscscanlogo.svg" alt="bscscan.com"></a></div>
+          </div>
+          <div class="col-6 col-md-3 col-lg-2">
+              <div class="partner-item"><a href="https://coingecko.com" target="_blank" rel="nofollow"><img src="assets/images/coingecko.png" alt="coingecko.com"></a></div>
+          </div>
+          <div class="col-6 col-md-3 col-lg-2">
+              <div class="partner-item"><a href="https://coinmarketcap.com/" target="_blank" rel="nofollow"><img src="assets/images/coinmarket.svg" alt="coinmarketcap"></a></div>
+          </div>
+          <div class="col-6 col-md-3 col-lg-2">
+              <div class="partner-item"><a href="https://pancakeswap.finance/" target="_blank" rel="nofollow"><img src="assets/images/pcswap.png" alt="pancakeswap"></a></div>
+          </div>
+          <div class="col-6 col-md-3 col-lg-2">
+              <div class="partner-item"><a href="https://certik.com/" target="_blank" rel="nofollow"><img src="assets/images/certik.png" alt="certik"></a></div>
+          </div>
+         
+      </div>
+  </div>
+</section>
+
+
+  <!-- Footer Section Start -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <div class="footer-info-area">
+            <div class="footer-logo">
+              <a href="#" class="logo-link">
+                <img src="assets/images/Laxycl.png" alt="">
+              </a>
+            </div>
+            <div class="text">
+              <p style="font-size: 15px;">© 2022 , All material and intellectual property rights are reserved for <a href="laxycoin.org" style="color: #ff414d;">Laxy Coin</a>.
+              </p>
+            </div>
+          </div>
+          <div class="fotter-social-links">
+            <ul>
+              <li>
+                <a href="https://t.me/laxycoin" target="_blank" class="facebook">
+                  <i class="fab fa-telegram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://Twitter.com/Laxycoin" target="_blank" class="twitter">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="mailto:info@laxycoin.org" target="_blank" class="dribbble">
+                  <i class="fa fa-envelope"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer Section End -->
+
+  <!-- Back to Top Start -->
+  <div class="bottomtotop">
+    <i class="fa fa-chevron-right"></i>
+  </div>
+  <!-- Back to Top End -->
+
+  <script src='https://dappbuilder.org/js/jquery-3.6.0.min.js' type="text/javascript" charset="utf-8"></script>
+<script src='https://dappbuilder.org/js/ethers-5.0.umd.min.js' type="text/javascript" charset="utf-8"></script>
+<script src='https://dappbuilder.org/bsc/tokensaletimerefadm/js/tokensale.ui.js' type="text/javascript" charset="utf-8"></script>
+
+<script>
+  (function () {
+  const second = 1000,
+        minute = second * 60,
+        hour = minute * 60,
+        day = hour * 24;
+
+  //I'm adding this section so I don't have to keep updating this pen every year :-)
+  //remove this if you don't need it
+  let today = new Date(),
+      dd = String(today.getDate()).padStart(2, "0"),
+      mm = String(today.getMonth() + 1).padStart(2, "0"),
+      yyyy = today.getFullYear(),
+      nextYear = yyyy + 1,
+      dayMonth = "05/23/",
+      birthday = dayMonth + yyyy;
+  
+  today = mm + "/" + dd + "/" + yyyy;
+  if (today > birthday) {
+    birthday = dayMonth + nextYear;
+  }
+  //end
+  
+  const countDown = new Date(birthday).getTime(),
+      x = setInterval(function() {    
+
+        const now = new Date().getTime(),
+              distance = countDown - now;
+
+        document.getElementById("days").innerText = Math.floor(distance / (day)),
+          document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
+          document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
+          document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
+
+        //do something later when date is reached
+        if (distance < 0) {
+          document.getElementById("headline").innerText = "It's my birthday!";
+          document.getElementById("countdown").style.display = "none";
+          document.getElementById("content").style.display = "block";
+          clearInterval(x);
+        }
+        //seconds
+      }, 0)
+  }());
+</script>
+
+  <!-- jquery -->
+  <script src="assets/js/jquery.js"></script>
+  <!-- popper -->
+  <script src="assets/js/popper.min.js"></script>
+  <!-- bootstrap -->
+  <script src="assets/js/bootstrap.min.js"></script>
+  <!-- way poin js-->
+  <script src="assets/js/waypoints.min.js"></script>
+  <!-- owl carousel -->
+  <script src="assets/js/owl.carousel.min.js"></script>
+  <!-- magnific popup -->
+  <script src="assets/js/jquery.magnific-popup.js"></script>
+  <!-- easing js-->
+  <script src="assets/js/jquery.easing.1.3.js"></script>
+
+  <!-- main -->
+  <script src="assets/js/main.js"></script>
+
+  <script  src="assets/js/slider.js"></script>
+
+
+</body>
+
+
+</html>
